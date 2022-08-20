@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "jet";
+  src: url("./assets/JetBrainsMono-Thin.ttf");
+}
+
+@font-face {
+  font-family: "altona";
+  src: url("./assets/AltonaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("./assets/Roboto-Thin.ttf");
+}
+
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {

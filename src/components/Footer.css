@@ -1,0 +1,15 @@
+.footer-component {
+    height: 10vh;
+}
+
+.home-f {
+    background-image: url("../images/bottomcrop2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-f {
+    background-image: url("../images/treebottom.png");
+    background-size: cover;
+    background-position: center;
+}

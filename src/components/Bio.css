@@ -1,0 +1,57 @@
+.bio-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: white;
+    font-family: "jet";
+}
+
+.slide-left {
+    animation-name: slideFromLeft;
+    animation-duration: 2s;
+    visibility: visible;
+    height: 45vh;
+    width:45vh;
+    background-image: url("../images/amelia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+}
+
+.slide-right {
+    animation-name: slideFromRight;
+    animation-duration: 2s;
+    visibility: visible;
+    width: 30vw;
+    margin-left: 8%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*  ANIMATIONS  */
+@keyframes slideFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }

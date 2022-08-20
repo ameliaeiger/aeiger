@@ -1,0 +1,15 @@
+.header-div {
+    height: 50vh;
+}
+
+.home {
+    background-image: url("../images/plains.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio {
+    background-image: url("../images/treetop.png");
+    background-size: cover;
+    background-position: center;
+}
