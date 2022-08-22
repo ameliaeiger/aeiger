@@ -15,7 +15,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path="https://ameliaeiger.herokuapp.com/" element={<HomeView />} />
+          <Route path="/" element={<HomeView />} />
           <Route path="portfolio" element={<PortfolioView />}/>
         </Routes>
       </BrowserRouter>
