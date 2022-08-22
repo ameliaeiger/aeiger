@@ -5,6 +5,7 @@ import Button from "@mui/material/Button"
 
 //COMPONENTS
 import "./MenuBar.css"
+import { findByLabelText } from '@testing-library/react'
 
 const MenuBar = () => {
     const click = () => {
@@ -45,6 +46,10 @@ export default MenuBar
 
 const style = {
     navButton: {
-        color: "black"
+        display: "flex",
+        alignItems: "center",
+        color: "black",
+        fontSize:"22px",
+        padding: "7px"
     }
 }
