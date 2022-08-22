@@ -1,3 +1,14 @@
+p {
+    /* font-family: "jet"; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    /* font-weight: bold; */
+    padding: 0px;
+    margin: 0px;
+}
+
 .portfolio-component {
     height: 100%;
     display: flex;
@@ -7,20 +18,37 @@
 .feature-wrapper {
     display: flex;
     margin: 10px;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+    font-family: "jet";
+}
+
+.feature-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.feature-info {
+    display: flex;
+    margin: 30px;
+}
+
+.feature-description {
+    margin: 30px;
+    max-width: 75%;
 }
 
 .feature-title {
-    font-family: "jet";
+    /* font-family: "jet"; */
 }
 
 .feature-image {
     display: flex;
     height: 40%;
     width: 40%;
-    max-height: 80%;
+    max-height: 40%;
 }
 
 .discoverd-image {
