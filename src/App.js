@@ -1,16 +1,10 @@
 import './App.css'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import {
   BrowserRouter,
   Routes,
   Route
  } from 'react-router-dom'
-
-//COMPONENTS
-import Header from './components/Header'
-import Bio from "./components/Bio"
-import Footer from "./components/Footer"
-import MenuBar from './components/MenuBar'
 
 //VIEWS
 import HomeView from './views/HomeView'
