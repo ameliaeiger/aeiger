@@ -15,11 +15,10 @@ const Footer = () => {
     //Translates current page to readable string for CSS class
     const getfooterImage = () => {
         if (currentPage && currentPage.includes("portfolio")){
-            console.log("home")
-            return "home-f"
-        } else if (currentPage){
-        console.log("portfolio-f")
             return "portfolio-f"
+
+        } else if (currentPage){
+            return "home-f"
         }
     }
   return (
