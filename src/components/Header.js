@@ -15,13 +15,12 @@ const Header = () => {
 
     //Translates current page to readable string for CSS class
     const getHeaderImage = () => {
-        if (currentPage && currentPage.includes("/") && currentPage.length<30) {
-            console.log("home")
-            return "home"
-        }
         if (currentPage && currentPage.includes("portfolio")){
             console.log("portfolio")
             return "portfolio"
+        } else if (currentPage){
+            console.log("home")
+            return "home"
         }
     }
 
