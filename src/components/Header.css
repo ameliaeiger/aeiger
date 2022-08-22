@@ -3,13 +3,13 @@
 }
 
 .home {
-    background-image: url("/Users/ameliaeiger/projects/portfolio/src/images/plains.png");
+    background-image: url("../images/plains.png");
     background-size: cover;
     background-position: center;
 }
 
 .portfolio {
-    background-image: url("/Users/ameliaeiger/projects/portfolio/src/images/treetop.png");
+    background-image: url("../images/treetop.png");
     background-size: cover;
     background-position: center;
 }
