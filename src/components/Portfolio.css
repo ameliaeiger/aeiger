@@ -17,7 +17,7 @@ p {
 
 .feature-wrapper {
     display: flex;
-    margin: 10px;
+    /* margin: 5% 20px 5% 20px; */
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
@@ -27,6 +27,7 @@ p {
 .feature-info-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: 50%;
 }
 
@@ -40,15 +41,22 @@ p {
     max-width: 75%;
 }
 
-.feature-title {
-    /* font-family: "jet"; */
-}
-
 .feature-image {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 40%;
     width: 40%;
     max-height: 40%;
+    margin:0;
+}
+
+.border {
+    border-radius: 30px;
+}
+
+.margin {
+    margin-top: 5%;
 }
 
 .discoverd-image {
@@ -60,3 +68,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* .image-div {
+    max-height: 50%;
+    max-width: 50%;
+} */

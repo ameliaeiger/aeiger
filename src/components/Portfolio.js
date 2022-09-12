@@ -45,14 +45,14 @@ const Portfolio = () => {
                                 Earthling includes a search where users can input any date and see what NEOs were nearby on that day and whether or not any were potentially hazardous to the planet!
                             </div>
                         </div>
-                        <img className="feature-image" src="https://i.imgur.com/YsQP5SZ.gif"/>
+                        <img className="feature-image border" src="https://i.imgur.com/YsQP5SZ.gif"/>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-wrapper">
+                    <div className="feature-wrapper margin">
                         <div className="feature-info-wrapper">
                             <div className="feature-info">
-                            <p>PROJECT:</p>
+                                <p>PROJECT:</p>
                                 <Button
                                     style={style.navButton}
                                     href="https://expo.dev/@discoverd/discoverd">
@@ -68,34 +68,44 @@ const Portfolio = () => {
                             <img className="discoverd-image" src="https://github.com/ameliaeiger/discoverd/blob/main/Discoverd-Use.gif?raw=true"/>
                             {/* <img className="discoverd-image" src="https://github.com/ameliaeiger/discoverd/raw/main/Click-to-wiki.gif"/> */}
                         </div>
-                        {/* <ReactPlayer 
-                        url={`https://www.youtube.com/watch?v=${keyTwo}`}
-                        /> */}
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-wrapper">
-                        <p>PROJECT:</p>
-                        <Button
-                            style={style.navButton}
-                            href="https://github.com/ameliaeiger/travel-tracker">
-                            TRAVEL TRACKER
-                        </Button>
-                        <img className="feature-image" src="https://i.imgur.com/08BNJcA.gif"/>
+                    <div className="feature-wrapper margin">
+                        <div className="feature-info-wrapper">
+                            <div className="feature-info">
+                                <p>PROJECT:</p>
+                                <p>PROJECT:</p>
+                                <p>PROJECT:</p>
+                                <Button
+                                    style={style.navButton}
+                                    href="https://github.com/ameliaeiger/travel-tracker">
+                                    TRAVEL TRACKER
+                                </Button>
+                            </div>
+                            <div className="feature-description">
+                                An app built for travelers; book and track flights as well as finding hotel arrangements.
+                            </div>
+                        </div>
+                        <img className="feature-image border" src="https://i.imgur.com/08BNJcA.gif"/>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="feature-wrapper">
-                        <p>PROJECT:</p>
-                        <Button
-                            style={style.navButton}
-                            href="https://peaceful-woodland-90062.herokuapp.com/">
-                            MOVIE NOVA
-                        </Button>
-                    <img className="feature-image" src="https://i.imgur.com/Nt6vOG6.gif"/>
-                        {/* <ReactPlayer 
-                        url={`https://www.youtube.com/watch?v=${keyThree}`}
-                        /> */}
+                    <div className="feature-wrapper margin">
+                        <div className="feature-info-wrapper">
+                            <div className="feature-info">
+                                <p>PROJECT:</p>
+                                <Button
+                                    style={style.navButton}
+                                    href="https://peaceful-woodland-90062.herokuapp.com/">
+                                    MOVIE NOVA
+                                </Button>
+                            </div>
+                            <div className="feature-description">
+                                A Rotten Tomatoes React clone that allows users to browse movie titles and access movie ratings, descriptions, and release dates.                            
+                            </div>
+                        </div>
+                        <img className="feature-image border" src="https://i.imgur.com/Nt6vOG6.gif"/>
                     </div>
                 </SwiperSlide>
             </Swiper>
