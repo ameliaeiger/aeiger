@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, Dimensions } from 'react'
 import "./Bio.css"
 
 const Bio = () => {

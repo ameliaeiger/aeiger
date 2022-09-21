@@ -1,3 +1,14 @@
+@media only screen and (max-width: 1023px) {
+    .menu-bar-component {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        font-family: "roboto";
+        padding: 5px;
+    }
+}
+
 .menu-bar-component {
     text-align: right;
     height: 7vh;

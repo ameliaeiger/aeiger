@@ -13,3 +13,9 @@
     background-size: cover;
     background-position: center;
 }
+
+@media only screen and (max-width: 1023px) {
+    .header-div {
+        height: 30vh;
+    }
+}
