@@ -3,13 +3,13 @@
 }
 
 .home {
-    background-image: url("https://i.imgur.com/0oa5LZE.png");
+    background-image: url("../images/plains.png");
     background-size: cover;
     background-position: center;
 }
 
 .portfolio {
-    background-image: url("https://i.imgur.com/Ig5fVns.png");
+    background-image: url("../images/treetop.png");
     background-size: cover;
     background-position: center;
 }
@@ -21,7 +21,6 @@
     }
 
     .home {
-        background-image: url("https://i.imgur.com/0oa5LZE.png");
         background-position: center;
         background-repeat: no-repeat;
     }
