@@ -46,8 +46,8 @@ const Portfolio = () => {
                             <div className="feature-info">
                                 <p>PROJECT: &nbsp;</p>
                                 <Button
-                                    className="navButton"
-                                    style={style.navButton}
+                                    className="projectTitleButton"
+                                    // style={style.navButton}
                                     href="https://lilearthling.herokuapp.com/"
                                     target="_blank" >
                                     EARTHLING
@@ -58,8 +58,8 @@ const Portfolio = () => {
                                 Earthling includes a search where users can input any date and see what NEOs were nearby on that day and whether or not any were potentially hazardous to the planet!
                             </div>
                             <section className="link-container">
-                                <a target="_blank" href="https://github.com/ameliaeiger/earthling"><img className="github-logo" src={githubLogo}/></a>
-                                <a target="_blank" href="https://lilearthling.herokuapp.com/">Deployed site</a>
+                                <a className="site-link" target="_blank" href="https://github.com/ameliaeiger/earthling"><img className="github-logo" src={githubLogo}/></a>
+                                <a className="site-link" target="_blank" href="https://lilearthling.herokuapp.com/">Deployed site</a>
                             </section>
                         </section>
                         <img className="feature-image border" src="https://i.imgur.com/YsQP5SZ.gif"/>
@@ -71,8 +71,8 @@ const Portfolio = () => {
                             <div className="feature-info">
                                 <p>PROJECT:&nbsp;</p>
                                 <Button
-                                    className="navButton"
-                                    style={style.navButton}
+                                    className="projectTitleButton"
+                                    // style={style.navButton}
                                     href="https://expo.dev/@discoverd/discoverd"
                                     target="_blank" >
                                     discoverd
@@ -83,8 +83,8 @@ const Portfolio = () => {
                             Users will receive information about their query as well as images and a link to its Wikipedia page for more information.
                             </div>
                             <section className="link-container">
-                                <a target="_blank" href="https://github.com/ameliaeiger/discoverd"><img className="github-logo" src={githubLogo}/></a>
-                                <a target="_blank" href="https://expo.dev/@discoverd/discoverd">Deployed site</a>
+                                <a className="site-link" target="_blank" href="https://github.com/ameliaeiger/discoverd"><img className="github-logo" src={githubLogo}/></a>
+                                <a className="site-link" target="_blank" href="https://expo.dev/@discoverd/discoverd">Deployed site</a>
                             </section>
                         </section>
                             <Swiper
@@ -112,8 +112,8 @@ const Portfolio = () => {
                             <div className="feature-info">
                                 <p>PROJECT:&nbsp;</p>
                                 <Button
-                                    className="navButton"
-                                    style={style.navButton}
+                                    className="projectTitleButton"
+                                    // style={style.navButton}
                                     href="https://peaceful-woodland-90062.herokuapp.com/"
                                     target="_blank" >
                                     MOVIE NOVA
@@ -123,8 +123,8 @@ const Portfolio = () => {
                                 A Rotten Tomatoes React clone that allows users to browse movie titles and access movie ratings, descriptions, and release dates.                            
                             </div>
                             <section className="link-container">
-                                <a target="_blank" href="https://github.com/ameliaeiger/rancid-tomatillos"><img className="github-logo" src={githubLogo}/></a>
-                                <a target="_blank" href="https://peaceful-woodland-90062.herokuapp.com/">Deployed site</a>
+                                <a className="site-link" target="_blank" href="https://github.com/ameliaeiger/rancid-tomatillos"><img className="github-logo" src={githubLogo}/></a>
+                                <a className="site-link" target="_blank" href="https://peaceful-woodland-90062.herokuapp.com/">Deployed site</a>
                             </section>
                         </section>
                         <Swiper
@@ -148,8 +148,8 @@ const Portfolio = () => {
                             <div className="feature-info">
                                 <p>PROJECT:&nbsp;</p>
                                 <Button
-                                    className="navButton"
-                                    style={style.navButton}
+                                    className="projectTitleButton"
+                                    // style={style.navButton}
                                     href="https://github.com/ameliaeiger/travel-tracker"
                                     target="_blank" >
                                     TRAVEL TRACKER
