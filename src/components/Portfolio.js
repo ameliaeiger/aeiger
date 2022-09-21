@@ -1,32 +1,28 @@
 import React, { useEffect, useState } from 'react'
 import "./Portfolio.css"
+
+//IMAGES
 import githubLogo from "../images/github-logo.png"
 import discoverdHome from "../images/discoverd-home.png"
 import discoverdImgPicker from "../images/discoverd-img-picker.png"
 import discoverdResults from "../images/discoverd-results.png"
 import discoverdResults2 from "../images/discoverd-results2.png"
-
-MdNavigateNext
-MdNavigateBefore
-MdArrowForward
-MdArrowBack
-
-//VS CODE ICONS
-VscGithubInverted
-VscTriangleRight
-VscTriangleLeft
+import movieNovaHome from "../images/movie-nova-home.png"
+import mulan from "../images/mulan.png"
 
 //LIBRARIES
 import Button from "@mui/material/Button"
 
 // Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"
+
 // Swiper styles
-import 'swiper/css';
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import 'swiper/css'
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+
 // Swiper required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper"
 
 const Portfolio = () => {
     const [loaded, setLoaded] = useState(false)
@@ -97,6 +93,7 @@ const Portfolio = () => {
                                 keyboard={true}
                                 modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                                 className="image-swiper"
+                                // style={{height: "1000px"}}
                             >
                                 <SwiperSlide><img className="discoverd-image" src={discoverdHome}/></SwiperSlide>
                                 <SwiperSlide><img className="discoverd-image" src={discoverdImgPicker}/></SwiperSlide>
@@ -105,6 +102,41 @@ const Portfolio = () => {
                             </Swiper>
                             {/* <img className="discoverd-image" src="https://github.com/ameliaeiger/discoverd/blob/main/Discoverd-Use.gif?raw=true"/> */}
                             {/* <img className="discoverd-image" src="https://github.com/ameliaeiger/discoverd/raw/main/Click-to-wiki.gif"/> */}
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="feature-wrapper margin">
+                        <section className="feature-info-wrapper">
+                            <div className="feature-info">
+                                <p>PROJECT:&nbsp;</p>
+                                <Button
+                                    className="navButton"
+                                    style={style.navButton}
+                                    href="https://peaceful-woodland-90062.herokuapp.com/">
+                                    MOVIE NOVA
+                                </Button>
+                            </div>
+                            <div className="feature-description">
+                                A Rotten Tomatoes React clone that allows users to browse movie titles and access movie ratings, descriptions, and release dates.                            
+                            </div>
+                            <section className="link-container">
+                                <a href="https://github.com/ameliaeiger/rancid-tomatillos"><img className="github-logo" src={githubLogo}/></a>
+                                <a href="https://peaceful-woodland-90062.herokuapp.com/">Deployed site</a>
+                            </section>
+                        </section>
+                        <Swiper
+                            cssMode={true}
+                            navigation={true}
+                            pagination={true}
+                            mousewheel={true}
+                            keyboard={true}
+                            modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+                            className="nova-swiper"
+                        >
+                            <SwiperSlide><img className="nova-image" src={movieNovaHome}/></SwiperSlide>
+                            <SwiperSlide><img className="nova-image" src={mulan}/></SwiperSlide>
+                        </Swiper>
+                        {/* <img className="feature-image border" src="https://i.imgur.com/Nt6vOG6.gif"/> */}
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -124,25 +156,6 @@ const Portfolio = () => {
                             </div>
                         </section>
                         <img className="feature-image border" src="https://i.imgur.com/08BNJcA.gif"/>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="feature-wrapper margin start">
-                        <section className="feature-info-wrapper">
-                            <div className="feature-info">
-                                <p>PROJECT:&nbsp;</p>
-                                <Button
-                                    className="navButton"
-                                    style={style.navButton}
-                                    href="https://peaceful-woodland-90062.herokuapp.com/">
-                                    MOVIE NOVA
-                                </Button>
-                            </div>
-                            <div className="feature-description">
-                                A Rotten Tomatoes React clone that allows users to browse movie titles and access movie ratings, descriptions, and release dates.                            
-                            </div>
-                        </section>
-                        <img className="feature-image border" src="https://i.imgur.com/Nt6vOG6.gif"/>
                     </div>
                 </SwiperSlide>
             </Swiper>

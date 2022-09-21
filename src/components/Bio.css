@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 50vh;
     /* min-height: 60%; */
     width: 100%;
     padding: 8%;
@@ -68,8 +68,8 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      height: 50vh;
-      width: 100%;
+      height: 40vh;
+      /* width: 100vw; */
       padding: 8%;
       background-color: white;
       font-family: "jet";
@@ -79,8 +79,8 @@
     animation-name: slideFromLeft;
     animation-duration: 2s;
     visibility: visible;
-    height: 15vh;
-    width:15vh;
+    height: 10rem;
+    width:10rem;
     background-image: url("../images/amelia.jpg");
     background-size: cover;
     background-repeat: no-repeat;

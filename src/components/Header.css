@@ -14,8 +14,15 @@
     background-position: center;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 900px) {
     .header-div {
-        height: 30vh;
+        height: 20vh;
+        width: 100vw;
+    }
+
+    .home {
+        background-image: url("https://i.imgur.com/0oa5LZE.png");
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }

@@ -1,11 +1,20 @@
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 900px) {
     .menu-bar-component {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 3rem;
+        height: 3rem !important;
         font-family: "roboto";
-        padding: 5px;
+        padding: 1% !important;
+    }
+
+    .navbutton {
+        display: flex !important;
+        color: black !important;
+        padding: 1% !important;
+        font-size: .75rem !important;
+        text-decoration: underline !important;
+        text-decoration-color: rgba(180, 180, 180, 0.709) !important;
     }
 }
 
