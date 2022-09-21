@@ -48,7 +48,8 @@ const Portfolio = () => {
                                 <Button
                                     className="navButton"
                                     style={style.navButton}
-                                    href="https://lilearthling.herokuapp.com/">
+                                    href="https://lilearthling.herokuapp.com/"
+                                    target="_blank" >
                                     EARTHLING
                                 </Button>
                             </div>
@@ -57,8 +58,8 @@ const Portfolio = () => {
                                 Earthling includes a search where users can input any date and see what NEOs were nearby on that day and whether or not any were potentially hazardous to the planet!
                             </div>
                             <section className="link-container">
-                                <a href="https://github.com/ameliaeiger/earthling"><img className="github-logo" src={githubLogo}/></a>
-                                <a href="https://lilearthling.herokuapp.com/">Deployed site</a>
+                                <a target="_blank" href="https://github.com/ameliaeiger/earthling"><img className="github-logo" src={githubLogo}/></a>
+                                <a target="_blank" href="https://lilearthling.herokuapp.com/">Deployed site</a>
                             </section>
                         </section>
                         <img className="feature-image border" src="https://i.imgur.com/YsQP5SZ.gif"/>
@@ -72,7 +73,8 @@ const Portfolio = () => {
                                 <Button
                                     className="navButton"
                                     style={style.navButton}
-                                    href="https://expo.dev/@discoverd/discoverd">
+                                    href="https://expo.dev/@discoverd/discoverd"
+                                    target="_blank" >
                                     discoverd
                                 </Button>
                             </div>
@@ -81,8 +83,8 @@ const Portfolio = () => {
                             Users will receive information about their query as well as images and a link to its Wikipedia page for more information.
                             </div>
                             <section className="link-container">
-                                <a href="https://github.com/ameliaeiger/discoverd"><img className="github-logo" src={githubLogo}/></a>
-                                <a href="https://expo.dev/@discoverd/discoverd">Deployed site</a>
+                                <a target="_blank" href="https://github.com/ameliaeiger/discoverd"><img className="github-logo" src={githubLogo}/></a>
+                                <a target="_blank" href="https://expo.dev/@discoverd/discoverd">Deployed site</a>
                             </section>
                         </section>
                             <Swiper
@@ -112,7 +114,8 @@ const Portfolio = () => {
                                 <Button
                                     className="navButton"
                                     style={style.navButton}
-                                    href="https://peaceful-woodland-90062.herokuapp.com/">
+                                    href="https://peaceful-woodland-90062.herokuapp.com/"
+                                    target="_blank" >
                                     MOVIE NOVA
                                 </Button>
                             </div>
@@ -120,8 +123,8 @@ const Portfolio = () => {
                                 A Rotten Tomatoes React clone that allows users to browse movie titles and access movie ratings, descriptions, and release dates.                            
                             </div>
                             <section className="link-container">
-                                <a href="https://github.com/ameliaeiger/rancid-tomatillos"><img className="github-logo" src={githubLogo}/></a>
-                                <a href="https://peaceful-woodland-90062.herokuapp.com/">Deployed site</a>
+                                <a target="_blank" href="https://github.com/ameliaeiger/rancid-tomatillos"><img className="github-logo" src={githubLogo}/></a>
+                                <a target="_blank" href="https://peaceful-woodland-90062.herokuapp.com/">Deployed site</a>
                             </section>
                         </section>
                         <Swiper
@@ -147,7 +150,8 @@ const Portfolio = () => {
                                 <Button
                                     className="navButton"
                                     style={style.navButton}
-                                    href="https://github.com/ameliaeiger/travel-tracker">
+                                    href="https://github.com/ameliaeiger/travel-tracker"
+                                    target="_blank" >
                                     TRAVEL TRACKER
                                 </Button>
                             </div>

@@ -26,3 +26,11 @@
     justify-content: flex-end;
     padding: 5px;
 }
+
+.navbutton {
+    display: flex;
+    align-items: center;
+    color: rgb(125, 125, 125) !important;
+    font-size: 1em !important;;
+    padding: 7px;
+}

@@ -17,28 +17,30 @@ const MenuBar = () => {
             className="navbutton"
             // style={style.navButton}
             onClick={click}
-            href="/">
+            href="/" >
                 HOME
         </Button>
         <Button
             className="navbutton"
             // style={style.navButton}
             onClick={click}
-            href="/portfolio">
+            href="/portfolio" >
                 PORTFOLIO
         </Button>
         <Button
             className="navbutton"
             // style={style.navButton}
             onClick={click}
-            href="https://github.com/ameliaeiger">
+            href="https://github.com/ameliaeiger"
+            target="_blank" >
                 GITHUB
         </Button>
         <Button
             className="navbutton"
             // style={style.navButton}
             onClick={click}
-            href="https://www.linkedin.com/in/ameliaeiger/">
+            href="https://www.linkedin.com/in/ameliaeiger/"
+            target="_blank" >
                 LINKEDIN
         </Button>
     </section>
@@ -46,13 +48,3 @@ const MenuBar = () => {
 }
 
 export default MenuBar
-
-const style = {
-    navButton: {
-        display: "flex",
-        alignItems: "center",
-        color: "black",
-        fontSize:"1.1rem",
-        padding: "7px"
-    }
-}
