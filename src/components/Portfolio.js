@@ -47,8 +47,7 @@ const Portfolio = () => {
                                 <p>PROJECT: &nbsp;</p>
                                 <Button
                                     className="projectTitleButton"
-                                    // style={style.navButton}
-                                    href="https://lilearthling.herokuapp.com/"
+                                    href="https://greetings-earthling.vercel.app/"
                                     target="_blank" >
                                     EARTHLING
                                 </Button>
@@ -59,7 +58,7 @@ const Portfolio = () => {
                             </div>
                             <section className="link-container">
                                 <a className="site-link" target="_blank" href="https://github.com/ameliaeiger/earthling"><img className="github-logo" src={githubLogo}/></a>
-                                <a className="site-link" target="_blank" href="https://lilearthling.herokuapp.com/">Deployed site</a>
+                                <a className="site-link" target="_blank" href="https://greetings-earthling.vercel.app/">Deployed site</a>
                             </section>
                         </section>
                         <img className="feature-image border" src="https://i.imgur.com/YsQP5SZ.gif"/>
@@ -72,7 +71,6 @@ const Portfolio = () => {
                                 <p>PROJECT:&nbsp;</p>
                                 <Button
                                     className="projectTitleButton"
-                                    // style={style.navButton}
                                     href="https://expo.dev/@discoverd/discoverd"
                                     target="_blank" >
                                     discoverd
@@ -95,7 +93,6 @@ const Portfolio = () => {
                                 keyboard={true}
                                 modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                                 className="image-swiper"
-                                // style={{height: "1000px"}}
                             >
                                 <SwiperSlide><img className="discoverd-image" src={discoverdHome}/></SwiperSlide>
                                 <SwiperSlide><img className="discoverd-image" src={discoverdImgPicker}/></SwiperSlide>
@@ -113,8 +110,7 @@ const Portfolio = () => {
                                 <p>PROJECT:&nbsp;</p>
                                 <Button
                                     className="projectTitleButton"
-                                    // style={style.navButton}
-                                    href="https://peaceful-woodland-90062.herokuapp.com/"
+                                    href="https://movie-nova.vercel.app/"
                                     target="_blank" >
                                     MOVIE NOVA
                                 </Button>
@@ -124,7 +120,7 @@ const Portfolio = () => {
                             </div>
                             <section className="link-container">
                                 <a className="site-link" target="_blank" href="https://github.com/ameliaeiger/rancid-tomatillos"><img className="github-logo" src={githubLogo}/></a>
-                                <a className="site-link" target="_blank" href="https://peaceful-woodland-90062.herokuapp.com/">Deployed site</a>
+                                <a className="site-link" target="_blank" href="https://movie-nova.vercel.app/">Deployed site</a>
                             </section>
                         </section>
                         <Swiper
@@ -138,6 +134,7 @@ const Portfolio = () => {
                         >
                             <SwiperSlide><img className="nova-image" src={movieNovaHome}/></SwiperSlide>
                             <SwiperSlide><img className="nova-image" src={mulan}/></SwiperSlide>
+                            {/* https://imgur.com/xxCC2hl */}
                         </Swiper>
                         {/* <img className="feature-image border" src="https://i.imgur.com/Nt6vOG6.gif"/> */}
                     </div>
@@ -149,7 +146,6 @@ const Portfolio = () => {
                                 <p>PROJECT:&nbsp;</p>
                                 <Button
                                     className="projectTitleButton"
-                                    // style={style.navButton}
                                     href="https://github.com/ameliaeiger/travel-tracker"
                                     target="_blank" >
                                     TRAVEL TRACKER
